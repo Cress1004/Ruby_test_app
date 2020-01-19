@@ -1,11 +1,9 @@
 # README
 
-This is conflict
+Where is conflict?
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-
-Where is conflict?
 
 1) Create a new Rails application and call it alpha-blog
 
