@@ -1,1 +1,21 @@
+$navbar-default-bg: red;
+
 @import 'bootstrap/dist/css/bootstrap';
+
+#logo{
+  float: left;
+  font-size: 3em;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: brown;
+  text_decoration: none;
+}
+
+.center{
+  text-align: center;
+}
