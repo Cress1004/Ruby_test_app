@@ -1,10 +1,9 @@
-$navbar-default-bg: red;
 
 @import 'bootstrap/dist/css/bootstrap';
 
 #logo{
   float: left;
-  font-size: 3em;
+  font-size: 1.5em;
   color: red;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -18,4 +17,51 @@ $navbar-default-bg: red;
 
 .center{
   text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('bg_image.png');
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1{
+  color: red;
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 90px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+btn-xlarge{
+  font-size: 2em;
+  background-color: blue;
+}
+
+footer{
+  margin-top: 30px;
+  padding-top: 4px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float:left;
+  margin-left: 15px;
+  font-size: 15px;
 }
