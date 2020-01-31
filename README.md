@@ -13,22 +13,7 @@ application up and running.
 
 5) Create a homepage, about
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+User Validation:
+  - username must be presence and unique
+  - email must be presence and unique
+  - validate email format using REGEX
