@@ -11,7 +11,9 @@ class ArticlesController < ApplicationController
 
   def create
    # render plain: params[:article].inspect # Hien thi ra cac record dang don gian
+   #debugger
    @article = Article.new(article_params)
+   @article.user = User.first
    if @article.save
       flash[:success] = "Article was submitted succsefully"
       redirect_to article_path(@article)
