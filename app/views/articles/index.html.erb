@@ -1,2 +1,8 @@
-<h1 align="center">Listing all articles</h1>
+</br> <h1 align="center">Listing all articles</h1> </br>
+<div class="offset-md-4 col-md-4">
+<%= paginate @articles, theme: 'twitter-bootstrap-4' %>
+</div>
 <%= render 'article' , obj: @articles%>
+<div class="offset-md-4 col-md-4">
+<%= paginate @articles, theme: 'twitter-bootstrap-4' %>
+</div>

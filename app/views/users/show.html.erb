@@ -5,4 +5,10 @@
   </div>
 </div>
 <h4 align="center"><%= @user.username %>'s articles</h4>
+<div class="offset-md-4 col-md-4">
+<%= paginate @user_articles, theme: 'twitter-bootstrap-4' %>
+</div>
 <%=render 'articles/article' , obj: @user.articles%>
+<div class="offset-md-4 col-md-4">
+<%= paginate @user_articles, theme: 'twitter-bootstrap-4' %>
+</div>
