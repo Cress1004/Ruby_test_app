@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2020_01_31_145741) do
-=======
-ActiveRecord::Schema.define(version: 2020_02_01_140043) do
->>>>>>> Show_user_infor_in_Article
+ActiveRecord::Schema.define(version: 2020_02_04_081151) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
