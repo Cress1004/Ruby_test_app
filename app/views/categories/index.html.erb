@@ -11,8 +11,12 @@
           <li class="article-title">
             <%= link_to "#{category.name}", category_path(category)%>
           </li>
+          <li><small><%= pluralize(category.articles.count, "article") %></small></li>
         </div>
       </div>
     </ul>
   <% end %>
+</div>
+<div class="offset-md-4 col-md-4">
+<%= paginate @categories, theme: 'twitter-bootstrap-4' %>
 </div>
